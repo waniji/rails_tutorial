@@ -5,6 +5,8 @@ gem 'rails', '4.2.0'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard'
+  gem 'guard-rspec'
 end
 
 group :test do
@@ -27,6 +29,9 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :production do
